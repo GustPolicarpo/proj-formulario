@@ -1,0 +1,134 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #87d194;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #323131;
+}
+p,
+label {
+  color: #000000;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #000000;
+  padding: 10px 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+input[type="file"],
+textarea {
+  width: 400px;
+}
+
+textarea {
+  padding: 10px 5px;
+}
+
+/* page header */
+.header {
+  height: 160px;
+  padding: 20px;
+  background-color: #5c9874;
+}
+
+.header h3 {
+  color: #ffffff;
+  margin-top: 0;
+}
+
+/* form container */
+.form-container {
+  background-color: aliceblue;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: -62px;
+}
+
+/* form heard */
+.form-header {
+border-bottom: 1px solid #ffffff;
+height: 45px;
+
+}
+
+.form-header {
+  color: #5c9874;
+  border-bottom: 2px solid #5c9874;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  height: 45px;
+  line-height: 45px;
+}
+
+/* form body */
+.form-body {
+  padding: 30px;
+}
+
+.form-title {
+  margin-bottom: 15px;
+}
+
+.form-body p {
+  margin-bottom: 20px;
+}
+
+.required-field {
+  color: red
+}
+
+.box-input {
+  margin-bottom: 35px
+}
+
+.block {
+  display: block;
+}
+
+.optional-box {
+  display: inline-block;
+  margin: 0 30px 30px 0;
+}
+
+.optional-list li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.box-input p {
+  margin-bottom: 20px;
+}
+
+.btn-submit {
+  background-color: #5c9874;
+  color: aliceblue;
+  border: 2px solid transparent;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5ms;
+}
+
+.btn-submit:hover {
+  background-color: aliceblue;
+  border-color: #5c9874;
+  color: #5c9874;
+}
